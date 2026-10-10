@@ -10,91 +10,91 @@
 
 <div align="center">— 第 1 页 —</div>
 
-![封面](docs/pages/page-01.png)
+![封面](pages/page-01.png)
 
 ## 目录
 
 <div align="center">— 第 2 页 —</div>
 
-![目录 1](docs/pages/page-02.png)
+![目录 1](pages/page-02.png)
 
 <div align="center">— 第 3 页 —</div>
 
-![目录 2](docs/pages/page-03.png)
+![目录 2](pages/page-03.png)
 
 ## 第一章 · 事件总览
 
 <div align="center">— 第 4 页 —</div>
 
-![第一章 事件总览](docs/pages/page-04.png)
+![第一章 事件总览](pages/page-04.png)
 
 ## 第二章 · ARTEX 框架架构
 
 <div align="center">— 第 5 页 —</div>
 
-![第二章 ARTEX 框架架构](docs/pages/page-05.png)
+![第二章 ARTEX 框架架构](pages/page-05.png)
 
 <div align="center">— 第 6 页 —</div>
 
-![第二章 核心模块与运行流程](docs/pages/page-06.png)
+![第二章 核心模块与运行流程](pages/page-06.png)
 
 ## 第三章 · 双服务器架构与通信链路
 
 <div align="center">— 第 7 页 —</div>
 
-![第三章 双服务器架构与通信链路](docs/pages/page-07.png)
+![第三章 双服务器架构与通信链路](pages/page-07.png)
 
 <div align="center">— 第 8 页 —</div>
 
-![第三章 三层流量走向](docs/pages/page-08.png)
+![第三章 三层流量走向](pages/page-08.png)
 
 ## 第四章 · 入侵手法全流程
 
 <div align="center">— 第 9 页 —</div>
 
-![第四章 入侵手法全流程](docs/pages/page-09.png)
+![第四章 入侵手法全流程](pages/page-09.png)
 
 <div align="center">— 第 10 页 —</div>
 
-![第四章 数据提取与外传](docs/pages/page-10.png)
+![第四章 数据提取与外传](pages/page-10.png)
 
 ## 第五章 · 身份隐匿架构
 
 <div align="center">— 第 11 页 —</div>
 
-![第五章 身份隐匿架构](docs/pages/page-11.png)
+![第五章 身份隐匿架构](pages/page-11.png)
 
 <div align="center">— 第 12 页 —</div>
 
-![第五章 行为指纹控制](docs/pages/page-12.png)
+![第五章 行为指纹控制](pages/page-12.png)
 
 ## 第六章 · 致命失误分析
 
 <div align="center">— 第 13 页 —</div>
 
-![第六章 致命失误分析](docs/pages/page-13.png)
+![第六章 致命失误分析](pages/page-13.png)
 
 <div align="center">— 第 14 页 —</div>
 
-![第六章 目录浏览暴露](docs/pages/page-14.png)
+![第六章 目录浏览暴露](pages/page-14.png)
 
 ## 第七章 · 防御视角与检查清单
 
 <div align="center">— 第 15 页 —</div>
 
-![第七章 防御视角与检查清单](docs/pages/page-15.png)
+![第七章 防御视角与检查清单](pages/page-15.png)
 
 <div align="center">— 第 16 页 —</div>
 
-![第七章 AI 攻击检测特征](docs/pages/page-16.png)
+![第七章 AI 攻击检测特征](pages/page-16.png)
 
 <div align="center">— 第 17 页 —</div>
 
-![第七章 运维检查清单](docs/pages/page-17.png)
+![第七章 运维检查清单](pages/page-17.png)
 
 <div align="center">— 第 18 页 —</div>
 
-![关于作者](docs/pages/page-18.png)
+![关于作者](pages/page-18.png)
 
 ---
 
