@@ -70,6 +70,7 @@
   > 作者：simon，一个不懂代码的 AI 极客 ｜ 微信交流群：`simonsxxs` ｜ GitHub：https://github.com/simonsxxs ｜ Gitee：https://gitee.com/simonsxx
 - **免责声明**：内容定位"仅供安全研究与防御建设"，不收录可直接复用的攻击工具/脚本；涉及灰色的产品拆解必须已脱敏。
 - **秘密管理**：Token/密钥不进仓库、不进日志、不进回复；PDF 源文件若来自微信等本地目录，直接 `cp`，不要把私人路径写进仓库文档。
+- **介绍区块同步**：README 内的「配套软件」「未公开教程」等介绍区块，必须与私有仓 [tech-anatomy-private](https://github.com/simonsxxs/tech-anatomy-private) 的实际内容保持一致（数量、特性描述、获取引导）；私有仓对应内容有更新时，推送前同步核对公开仓介绍。敏感细节一律只进私有仓，公开仓只放介绍与"联系署名作者获取"引导。
 - **授权边界**：常规"新增文档 → 推送双平台"是用户已确立的常态授权流程，可直接执行；改名、删库、改可见性、新增第三方内容发布，需当次向用户确认。
 - **不擅自扩范围**：不改历史文档的编号与链接结构（外部已分享过链接），除非用户要求。
 
@@ -94,13 +95,13 @@
 | 教程 01 | 教程/01-ChatGPT-MCP插件制作教程 | 内部系统接入 ChatGPT：MCP + OAuth 只读插件制作教程 | 7 |
 | 教程 02 | 教程/02-自动化招聘AI智能体拆解与复刻 | 拆解一款自动化招聘 AI 智能体（复刻教程） | 39 |
 
-> 接管后新增文档请同步更新本表。
+> 接管后新增文档请同步更新本表；新增 README 内区块（不占用编号的介绍区块，如配套软件、未公开教程）时，在下文列表中登记一条，并与私有仓实际内容保持同步。
 
 - 配套软件区块：软件 01 招聘自动化智能体 · 自用版（README 内区块，无 PDF 三件套，不占用上表编号）。
 - 未公开教程区块：《软件去卡密完全实战教程》45 页 + software-decard 软件去卡密智能体技能（README 内区块，未占用编号，仅介绍不外发，获取引导指向私有仓并联系署名作者）。
 
 ## 八、当前维护环境（仅供参考，可能随接管环境变化）
 
-- 本地工作副本：`/Users/simon-mac/Projects/ai-tech-anatomy`（旧目录名 ai-attack-chain-analysis 已随仓库改名，如目录还在旧名下，以 remote 为准）
+- 本地工作副本（2026-10-12 起实际使用）：`/Users/simon-mac/project/05_skills/ai-tech-anatomy`；历史路径 `/Users/simon-mac/Projects/ai-tech-anatomy` 若仍存在，以 remote 为准
 - 渲染工具：pdftoppm（Homebrew poppler）
 - 浏览器验证：ego-browser 技能（ego-lite）；无此技能时用等效真实浏览器方案
