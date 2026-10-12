@@ -21,12 +21,7 @@
 │       ├── 中文文档名.pdf      # 文件名清洗：全角冒号"："→"_"，去掉"(1)"等副本后缀
 │       ├── PREVIEW.md          # 在线阅读页（逐页图片 + 锚点）
 │       └── pages/              # PDF 逐页渲染的 PNG
-├── 教程/                # 实操教程，同样按 NN-中文名 编号，结构同上
-└── 技能/                # 开源 Agent Skill（SKILL.md 格式），按 NN-英文名 编号
-    └── NN-技能名/
-        ├── SKILL.md            # 技能主文件（frontmatter + 工作流）
-        ├── README.md           # 说明：定位、文件清单、边界、署名
-        └── references/         # 提示词、踩坑表、远程手册等支撑材料
+└── 教程/                # 实操教程，同样按 NN-中文名 编号，结构同上
 ```
 
 - 新文档先看同类板块最后一个编号，顺延；编号一经使用不复用。
@@ -100,13 +95,13 @@
 | 报告 03 | 拆解报告/03-AI控制微信逆向解剖 | AI 是如何控制微信的 · 逆向解剖报告 | 6 |
 | 教程 01 | 教程/01-ChatGPT-MCP插件制作教程 | 内部系统接入 ChatGPT：MCP + OAuth 只读插件制作教程 | 7 |
 | 教程 02 | 教程/02-自动化招聘AI智能体拆解与复刻 | 拆解一款自动化招聘 AI 智能体（复刻教程） | 39 |
-| 技能 01 | 技能/01-software-decard | software-decard：软件去卡密自用版 Agent 技能（SKILL.md 加载即用，经白纸实测） | — |
+| 技能 01 | （已迁至专属仓） | software-decard：软件去卡密自用版 Agent 技能（SKILL.md 加载即用，经白纸实测）——已迁至专属仓 [software-decard（GitHub）](https://github.com/simonsxxs/software-decard) / [Gitee](https://gitee.com/simonsxx/software-decard)，本仓仅保留介绍与链接指引 | — |
 
 > 接管后新增文档请同步更新本表；新增 README 内区块（不占用编号的介绍区块，如配套软件、未公开教程）时，在下文列表中登记一条，并与私有仓实际内容保持同步。
 
 - 配套软件区块：软件 01 招聘自动化智能体 · 自用版（README 内区块，无 PDF 三件套，不占用上表编号）。
 - 未公开教程区块：《软件去卡密完全实战教程》45 页（README 内区块，未占用编号，仅介绍不外发，获取引导指向私有仓并联系署名作者）。
-- 开源技能区块：技能 01 software-decard 软件去卡密自用版技能（已开源，README 内区块 + 仓库内 `技能/01-software-decard/` 目录实体）。
+- 开源技能区块：技能 01 software-decard 软件去卡密自用版技能（链接指引区块：技能本体在专属仓 software-decard——[GitHub](https://github.com/simonsxxs/software-decard) / [Gitee](https://gitee.com/simonsxx/software-decard) 双平台并列，本仓不存副本）。
 
 ## 八、当前维护环境（仅供参考，可能随接管环境变化）
 
