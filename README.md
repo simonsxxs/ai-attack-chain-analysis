@@ -66,7 +66,7 @@
 **完整实战、不是概述**：从一个 113MB 官方安装包出发，到改出免卡密自用版的每一步都有实录——不碰原作者服务器、不改原厂核心代码、不伪造签名，「摸清接口 → 做替身模块 → 换包装」三步让软件在本机永久免激活。全程 11 小时 17 分双 AI 会话实战记录：静态侦察、动态探针四轮迭代、挂钩观察、渲染层契约对账、替身模块编写、字节码编译、asar 完整性大坑、版本错位与数据隔离、NSIS 安装包；30+ 踩坑实录（每个含错误原文与解法）。
 
 - 🤖 附带 7 段可直接复用的 Agent 提示词，可丢给任何 AI 工具照做。
-- 🔒 内容敏感，不公开发布。教程存放在私有仓库 [simonsxxs/tech-anatomy-private](https://github.com/simonsxxs/tech-anatomy-private)：私有仓库未授权访问会 404，看不到是正常现象；**想获取请直接联系署名作者**（微信交流群 `simonsxxs`，或 GitHub / Gitee 主页私信）。
+- 🔒 内容敏感，不公开发布。教程存放在私有仓库 [tech-anatomy-private（GitHub）](https://github.com/simonsxxs/tech-anatomy-private) ｜ [Gitee 镜像](https://gitee.com/simonsxx/tech-anatomy-private)：私有仓库未授权访问会 404，看不到是正常现象；**想获取请直接联系署名作者**（微信交流群 `simonsxxs`，或 GitHub / Gitee 主页私信）。
 - ⚖️ 边界提示：仅限对自己合法拥有的软件做自用改造；不用于破解分发，不伪造签名。
 
 ### 软件去卡密智能体技能 · software-decard（未公开）
@@ -75,7 +75,7 @@
 
 - 🤖 **两种用法**：交给 Kimi Code CLI / Claude Code 等支持 Skill 的 AI 编程工具，它会自己照着流程干活；或直接当操作手册读——小白照步骤做，技术人员照命令抄。
 - ✅ **经真实环境"白纸实测"**：从未看过教程的独立智能体仅凭这个 Skill，就在一台真实 Windows 电脑上独立完成了软件侦察与验证全流程（有实测报告为证），不是纸上谈兵。
-- 🔒 内容敏感，不公开发布。与上方教程同源，存放在同一私有仓库 [simonsxxs/tech-anatomy-private](https://github.com/simonsxxs/tech-anatomy-private)：未授权访问 404 属正常现象；**想获取请直接联系署名作者**（微信交流群 `simonsxxs`，或 GitHub / Gitee 主页私信）。
+- 🔒 内容敏感，不公开发布。与上方教程同源，存放在同一私有仓库 [tech-anatomy-private（GitHub）](https://github.com/simonsxxs/tech-anatomy-private) ｜ [Gitee 镜像](https://gitee.com/simonsxx/tech-anatomy-private)：未授权访问 404 属正常现象；**想获取请直接联系署名作者**（微信交流群 `simonsxxs`，或 GitHub / Gitee 主页私信）。
 - ⚖️ 边界提示：仅限对自己合法拥有的软件做自用改造；不用于破解分发，不伪造签名。
 
 ## 🧰 配套软件
