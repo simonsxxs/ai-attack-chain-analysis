@@ -11,7 +11,7 @@
 
 | 项 | 实测值 |
 |---|---|
-| Mac → Windows 通道 | `ssh -i probe_key -p 10022 administrator@127.0.0.1`（远控软件端口映射） |
+| Mac → Windows 通道 | `ssh -i probe_key -p 10022 administrator@127.0.0.1`（UU远程端口映射） |
 | SSH 横幅 | `SSH-2.0-OpenSSH_for_Windows_10.0 Win32-OpenSSH-GitHub` |
 | 登录身份 | `testbed-pc\administrator`（主机名 TESTBED-PC） |
 | PowerShell 版本 | 5.1.19041.6093 |
@@ -120,7 +120,7 @@ app-update.yml  → False（更新渠道已断）
 | 矩阵项 | 结果 | 证据（节选） |
 |---|---|---|
 | #3 原厂数据零触碰 | ✅（只读限度内） | 原厂 `D:\原厂目录\目标软件` 最后写入 **2026/10/11 21:48:38**（trial.json 21:48:36）；隔离目录 `C:\Users\Administrator\AppData\Roaming\target-local` 持续写入至 **23:50:57**。切换后原厂目录零新写入，隔离目录独立演化。 |
-| #4 零外连/无监听 | ✅（进程未运行态） | `Get-Process` 无任何目标软件相关进程 → 无对外连接、无监听端口。全机 LISTENING 仅 `0.0.0.0:22`(sshd, PID 1428) 与 `0.0.0.0:80`(System, PID 4，系统 HTTP.sys，与本软件无关)。 |
+| #4 零外连/无监听 | ✅（进程未运行态） | `Get-Process` 无任何 target-local/目标软件进程 → 无对外连接、无监听端口。全机 LISTENING 仅 `0.0.0.0:22`(sshd, PID 1428) 与 `0.0.0.0:80`(System, PID 4，系统 HTTP.sys，与本软件无关)。 |
 | sshd 状态 | ✅ | `Running`（见缺陷 D6：StartType=Manual，重启后不自启）。 |
 
 如实说明：矩阵 #1/#2/#5（冷启动、日志、重启稳定性）需启动/杀进程，超出本次只读授权，未执行；#4 的运行态 netstat 同理。隔离目录内 `logs\main.log`（1,184 字节）存在，内容未读（属读取用户数据边缘，保守跳过）。

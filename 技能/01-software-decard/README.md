@@ -16,7 +16,7 @@
 | `SKILL.md` | 主流程：红线 → 识别信号 → 软件类型决策树（含原生模块可选工具箱）→ 九步操作 → 12 项验证矩阵 → Top10 坑 → 子智能体分工 |
 | `references/prompts.md` | 7 段可直接粘贴给 AI 的分步提示词 + 探针/挂钩/替身/编译全套代码模板 |
 | `references/pitfalls.md` | 40+ 条踩坑全表，按六大主题分组（现象 → 根因 → 解法） |
-| `references/remote-ops.md` | 远程操控 Windows 手册（三种环境判断；远控软件端口映射 + SSH 隧道 + sshd 修复 + EncodedCommand 黄金范式） |
+| `references/remote-ops.md` | 远程操控 Windows 手册（三种环境判断；UU远程端口映射 + SSH 隧道 + sshd 修复 + EncodedCommand 黄金范式） |
 | `VERIFY-REPORT.md` | 白纸实测报告：独立智能体仅凭本 Skill 在真实 Windows 环境完成侦察与验证的执行记录，含 6 条文档缺陷的修复留痕 |
 
 ## 边界（务必阅读）
@@ -30,7 +30,7 @@
 
 ## 使用方法
 
-把本目录放入你的 skills 目录（如 `~/.agents/skills/` 或 `~/.kimi-code/skills/`），当对话中出现"去掉自购软件的卡密/激活码校验、Electron 授权绕过自用、activation 替身模块、jsc 字节码、app 目录部署"等触发词时，Agent 会自动加载本 Skill 并按 `SKILL.md` 的流程执行。
+把本目录放入你的 AI 工具的 skills 目录（如 `~/.agents/skills/`），当对话中出现"去掉自购软件的卡密/激活码校验、Electron 授权绕过自用、activation 替身模块、jsc 字节码、app 目录部署"等触发词时，Agent 会自动加载本 Skill 并按 `SKILL.md` 的流程执行。
 
 ---
 

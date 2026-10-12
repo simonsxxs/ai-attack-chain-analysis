@@ -341,13 +341,13 @@ flowchart TD
 |---|---|---|
 | **同一台 Windows 上** | **整章跳过** | 所有命令本地终端直接跑：没有 ssh/scp/端口映射；EncodedCommand 也无需（它只为"传输路上防弄脏"，本地直接跑 .ps1 即可）；文件约定（`D:\下载`、`D:\软件`）照用；验证矩阵第 12 项仍需人工目验 |
 | **两台不同的 Windows** | 用本章思路，命令换 Windows 版 | 目标机 sshd 修复链照抄 §2；客户端用 Windows 自带 OpenSSH（`ssh`/`scp` 直接可用）；EncodedCommand 的 iconv 转码在 Windows 上可用 `certutil`/PowerShell 等价实现，或直接把 .ps1 传过去 `powershell -File` 执行 |
-| **AI 在 Mac（Apple 芯片），目标机是 x86-64 Windows** | **用全章**（本 Skill 实战场景） | 按下面 远控软件端口映射 + sshd 修复全链执行 |
+| **AI 在 Mac（Apple 芯片），目标机是 x86-64 Windows** | **用全章**（本 Skill 实战场景） | 按下面 UU远程端口映射 + sshd 修复全链执行 |
 
-如果你的 Mac 要操控一台 Windows 实体机，正解是：**远控软件的端口映射 + 修复 Windows 的 OpenSSH 服务**，打通后传文件、跑脚本、查日志全部自动化。
+如果你的 Mac 要操控一台 Windows 实体机，正解是：**远控软件（UU远程）端口映射 + 修复 Windows 的 OpenSSH 服务**，打通后传文件、跑脚本、查日志全部自动化。
 
-一句话通道拓扑：`Mac → ssh 到本机映射端口 → 远控软件端口映射 → Windows 的 sshd → 命令在 Windows 上执行，结果原路返回`。
+一句话通道拓扑：`Mac → ssh 到本机映射端口 → UU远程端口映射 → Windows 的 sshd → 命令在 Windows 上执行，结果原路返回`。
 
-包含：远控软件端口映射建 SSH 隧道的配置与验证三连、sshd 修复全链（事件 7000/7009、下载坑、`curl --ssl-no-revoke` 正法、install-sshd.ps1 修 StrictModes）、PowerShell EncodedCommand 黄金范式、文件位置约定（**传文件放 `D:\下载`、装软件放 `D:\软件`**）。详见 [references/remote-ops.md](references/remote-ops.md)。
+包含：UU远程端口映射建 SSH 隧道的配置与验证三连、sshd 修复全链（事件 7000/7009、下载坑、`curl --ssl-no-revoke` 正法、install-sshd.ps1 修 StrictModes）、PowerShell EncodedCommand 黄金范式、文件位置约定（**传文件放 `D:\下载`、装软件放 `D:\软件`**）。详见 [references/remote-ops.md](references/remote-ops.md)。
 
 ---
 
@@ -379,5 +379,9 @@ software-decard/
 └── references/
     ├── prompts.md           # 7 段分步 Agent 提示词（15.0–15.6）+ 全套代码模板附录
     ├── pitfalls.md          # 30+ 条踩坑全表（六大主题分组）
-    └── remote-ops.md        # 远程操作手册（远控软件端口映射 + SSH + EncodedCommand）
+    └── remote-ops.md        # 远程操作手册（UU远程端口映射 + SSH + EncodedCommand）
 ```
+
+---
+
+> 作者：simon，一个不懂代码的 AI 极客 ｜ 微信交流群：`simonsxxs` ｜ GitHub：https://github.com/simonsxxs ｜ Gitee：https://gitee.com/simonsxx
