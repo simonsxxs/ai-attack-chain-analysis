@@ -67,7 +67,10 @@
 ## 五、必须遵守的规范
 
 - **署名**：README、每篇 PREVIEW 文末必须带署名块：
-  > 作者：simon，一个不懂代码的 AI 极客 ｜ 微信交流群：`simonsxxs` ｜ GitHub：https://github.com/simonsxxs ｜ Gitee：https://gitee.com/simonsxx
+  > 作者：simon，一个不懂代码的 AI 极客
+  > 微信交流群：`simonsxxs`
+  > GitHub：https://github.com/simonsxxs
+  > Gitee：https://gitee.com/simonsxx
 - **免责声明**：内容定位"仅供安全研究与防御建设"，不收录可直接复用的攻击工具/脚本；涉及灰色的产品拆解必须已脱敏。
 - **秘密管理**：Token/密钥不进仓库、不进日志、不进回复；PDF 源文件若来自微信等本地目录，直接 `cp`，不要把私人路径写进仓库文档。
 - **介绍区块同步**：README 内的「配套软件」「未公开教程」等介绍区块，必须与私有仓 tech-anatomy-private（[GitHub](https://github.com/simonsxxs/tech-anatomy-private) / [Gitee](https://gitee.com/simonsxx/tech-anatomy-private)）的实际内容保持一致（数量、特性描述、获取引导）；私有仓对应内容有更新时，推送前同步核对公开仓介绍。敏感细节一律只进私有仓，公开仓只放介绍与"联系署名作者获取"引导。
