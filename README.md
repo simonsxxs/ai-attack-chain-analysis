@@ -61,7 +61,7 @@
 
 ### 01 · software-decard：软件去卡密自用版技能
 
-**把自购 Electron 软件改造成免卡密"自用版"的 Agent 技能**（SKILL.md 标准格式，加载即用）：完整操作手册 + 7 段分步提示词 + 40+ 条踩坑表 + Mac 远程操控 Windows 手册 + 白纸实测报告；经真实环境"白纸实测"验证，SKILL.md 内含"仅限自购自用、绝不分发"红线。
+**把自购 Electron 软件改造成免卡密"自用版"的 Agent 技能**（SKILL.md 标准格式，加载即用）：完整操作手册 + 9 段分步提示词（15.0–15.8）+ 40+ 条踩坑表（含界面注入专项）+ Mac 远程操控 Windows 手册 + 界面补丁包（ui-patch 部署附件模板）与网页版脚本模板 + 白纸实测报告（含真机界面注入层验证）；经真实环境"白纸实测"验证，SKILL.md 内含"仅限自购自用、绝不分发"红线。
 
 - 📂 **专属开源仓库**（技能本体与更新都在专属仓）：[software-decard（GitHub）](https://github.com/simonsxxs/software-decard) ｜ [Gitee 镜像](https://gitee.com/simonsxx/software-decard)
 - ⚖️ 边界提示：仅限对自己合法拥有的软件做自用改造；不用于破解分发，不伪造签名。
