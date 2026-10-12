@@ -57,6 +57,17 @@
 
 > 更多教程筹备中。有想看的主题欢迎提 Issue，或加微信群交流。
 
+## 🤖 开源技能
+
+### 01 · software-decard：软件去卡密自用版技能
+
+**把自购 Electron 软件改造成免卡密"自用版"的 Agent 技能**（SKILL.md 标准格式，加载即用）：完整操作手册 + 7 段分步提示词 + 40+ 条踩坑表 + Mac 远程操控 Windows 手册 + 白纸实测报告；SKILL.md 内含"仅限自购自用、绝不分发"红线。
+
+- 🤖 交给 Kimi Code CLI / Claude Code 等支持 Skill 的 AI 编程工具，它会自己照着流程干活；或直接当操作手册读——小白照步骤做，技术人员照命令抄。
+- ✅ **经真实环境"白纸实测"**：从未看过教程的独立智能体仅凭本 Skill，就在一台真实 Windows 电脑上独立完成软件侦察与验证全流程（有实测报告为证），不是纸上谈兵。
+- 📂 [进入目录](./技能/01-software-decard/README.md)
+- ⚖️ 边界提示：仅限对自己合法拥有的软件做自用改造；不用于破解分发，不伪造签名。
+
 ## 🔒 未公开教程
 
 ### 软件去卡密完全实战教程（45 页 · 未公开）
@@ -67,15 +78,6 @@
 
 - 🤖 附带 7 段可直接复用的 Agent 提示词，可丢给任何 AI 工具照做。
 - 🔒 内容敏感，不公开发布。教程存放在私有仓库 [tech-anatomy-private（GitHub）](https://github.com/simonsxxs/tech-anatomy-private) ｜ [Gitee 镜像](https://gitee.com/simonsxx/tech-anatomy-private)：私有仓库未授权访问会 404，看不到是正常现象；**想获取请直接联系署名作者**（微信交流群 `simonsxxs`，或 GitHub / Gitee 主页私信）。
-- ⚖️ 边界提示：仅限对自己合法拥有的软件做自用改造；不用于破解分发，不伪造签名。
-
-### 软件去卡密智能体技能 · software-decard（未公开）
-
-**把上面那套去卡密实战经验，固化成一个 AI 智能体"加载即用"的 Skill**（SKILL.md 标准格式，约 1200 行）：怎么判断一个软件能不能改、该走哪条技术路线、替身授权模块怎么写、字节码编译的铁律、12 项验证矩阵怎么跑、40+ 个踩坑实录（每个都是"现象 → 根因 → 解法"三段式）、远程操作手册（远程桌面端口映射、SSH 隧道、Windows sshd 修复、远程命令防乱码范式），外加 7 段可直接复用的子智能体提示词。
-
-- 🤖 **两种用法**：交给 Kimi Code CLI / Claude Code 等支持 Skill 的 AI 编程工具，它会自己照着流程干活；或直接当操作手册读——小白照步骤做，技术人员照命令抄。
-- ✅ **经真实环境"白纸实测"**：从未看过教程的独立智能体仅凭这个 Skill，就在一台真实 Windows 电脑上独立完成了软件侦察与验证全流程（有实测报告为证），不是纸上谈兵。
-- 🔒 内容敏感，不公开发布。与上方教程同源，存放在同一私有仓库 [tech-anatomy-private（GitHub）](https://github.com/simonsxxs/tech-anatomy-private) ｜ [Gitee 镜像](https://gitee.com/simonsxx/tech-anatomy-private)：未授权访问 404 属正常现象；**想获取请直接联系署名作者**（微信交流群 `simonsxxs`，或 GitHub / Gitee 主页私信）。
 - ⚖️ 边界提示：仅限对自己合法拥有的软件做自用改造；不用于破解分发，不伪造签名。
 
 ## 🧰 配套软件
