@@ -66,6 +66,13 @@
 - 📂 **专属开源仓库**（技能本体与更新都在专属仓）：[software-decard（GitHub）](https://github.com/simonsxxs/software-decard) ｜ [Gitee 镜像](https://gitee.com/simonsxx/software-decard)
 - ⚖️ 边界提示：仅限对自己合法拥有的软件做自用改造；不用于破解分发，不伪造签名。
 
+### 02 · 微信聊天记录采集助手（wechat-chat-ocr-collector）
+
+**把微信聊天记录采集成纯文本的 Agent 技能**（SKILL.md 标准格式，加载即用）：在 Windows 上用「滚屏截图 + 本地离线 OCR」把微信 / 企业微信的群聊、私聊自动逐屏识别成纯文本，再按需求整理成提问清单、某人发言、时间线、待办或可搜索网页。全程只读屏幕：不解密数据库、不注入进程、不联网上传、不发消息，绕开了数据库解密的法律风险。自带窗口校准模式与避坑清单，Windows 实测可用，配套教程见仓 [拆解报告 03](./拆解报告/03-AI控制微信逆向解剖/PREVIEW_WECHAT.md)。
+
+- 📂 **专属开源仓库**：[wechat-chat-ocr-collector（GitHub）](https://github.com/simonsxxs/wechat-chat-ocr-collector) ｜ [Gitee 镜像](https://gitee.com/simonsxx/wechat-chat-ocr-collector) ｜ 已提交 [SkillHub](https://skillhub.cn)（审核中）
+- ⚖️ 边界提示：只读取自己设备屏幕上的内容、整理自己的聊天记录；涉及他人隐私请勿外传。
+
 ## 🔒 未公开教程
 
 ### 软件去卡密完全实战教程（45 页 · 未公开）
@@ -100,6 +107,21 @@
 **获取方式：** 软件本体不公开分发，**联系作者获取**（微信交流群 `simonsxxs`，或 GitHub / Gitee 主页私信）。仅限自用，请勿用于商业分发。
 
 **原理参考：** 本仓[教程 02《拆解一款自动化招聘 AI 智能体（复刻教程）》](./教程/02-自动化招聘AI智能体拆解与复刻/PREVIEW.md)有同类工具的完整原理拆解。
+
+## 🗂 更多开源项目
+
+同一作者的其他开源仓库（完整列表见 [GitHub 主页](https://github.com/simonsxxs) ｜ [Gitee 主页](https://gitee.com/simonsxx)）：
+
+| 项目 | 一句话说明 |
+|---|---|
+| [wechat-chat-ocr-collector](https://github.com/simonsxxs/wechat-chat-ocr-collector) | 微信聊天记录采集助手：截图 + 离线 OCR，只读屏幕合规导出 |
+| [dshjob-skills](https://github.com/simonsxxs/dshjob-skills) | 多平台找工作自动化技能包（BOSS/智联/前程无忧/鱼泡/猎聘） |
+| [software-decard](https://github.com/simonsxxs/software-decard) | 软件去卡密自用版 Agent 技能（仅限自购自用） |
+| [electron-licensing-insights](https://github.com/simonsxxs/electron-licensing-insights) | Electron 软件授权机制深度解析（纯原理科普） |
+| [jianghushuo-skill](https://github.com/simonsxxs/jianghushuo-skill) | 姜胡说思维框架 Skill（可运行认知操作系统） |
+| [GEO-CN](https://github.com/simonsxxs/GEO-CN) | 国内 AI 搜索可见性（GEO）审计 |
+| [sai-laoshi](https://github.com/simonsxxs/sai-laoshi) | 赛老师：会成长的思维陪伴顾问 Skill |
+| [boss-auto-apply](https://github.com/simonsxxs/boss-auto-apply) | BOSS直聘自动化投递工具 |
 
 ## 🧭 阅读建议
 
